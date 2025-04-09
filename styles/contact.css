@@ -1,0 +1,9 @@
+.contact-container {
+    display: flex;
+    gap: 4em;
+    justify-content: center;
+}
+
+.contact-group {
+    text-align: center;
+}

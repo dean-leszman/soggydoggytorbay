@@ -1,0 +1,30 @@
+.services {
+    display: flex;
+    flex-direction: column;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+li:before {
+    content: '●';
+    margin: 0 0.4em;
+}
+
+.list-plus {
+    list-style-type: none;
+}
+
+.list-plus:before {
+    content: "+";
+    font-weight: bold;
+}

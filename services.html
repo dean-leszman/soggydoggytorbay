@@ -1,77 +1,236 @@
 <!doctype html>
 <html lang="en">
+
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Soggy Doggy Grooming</title>
+        <title>Services - Soggy Doggy Grooming</title>
 
         <link rel="stylesheet" href="./normalize.css" />
-        <link rel="stylesheet" href="./styles.css" />
+        <link rel="stylesheet" href="./styles/styles.css" />
+        <link rel="stylesheet" href="./styles/services.css" />
 
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
 
         <link href="./assets/fontawesome/css/fontawesome.min.css" rel="stylesheet" />
         <link href="./assets/fontawesome/css/brands.min.css" rel="stylesheet" />
         <link href="./assets/fontawesome/css/solid.min.css" rel="stylesheet" />
     </head>
+
     <body>
         <div class="navbar">
             <div class="container  nav-container">
-                <div class="nav-left">
-                        Soggy Doggy Grooming
-                    </div>
-                    <nav>
-                        <a href="/">
-                            Home
-                        </a>
-                        <a href="/services.html">
-                            Services
-                        </a>
-                        <a href="#contact">
-                            Contact
-                        </a>
-                    </nav>
+                <div class="">
+                    <img class="logo" src="./assets/logo.png" />
                 </div>
+                <nav>
+                    <a href="./index.html">
+                        Home
+                    </a>
+                    <a href="./services.html">
+                        Services
+                    </a>
+                    <a href="./contact.html">
+                        Contact
+                    </a>
+                </nav>
             </div>
         </div>
 
         <div id="home">
             <div class="hero">
-                <div class="hero-text">
-                    Soggy Doggy Grooming
-                </div>
+                <h1 class="hero-text">
+                    Our Services
+                </h1>
             </div>
         </div>
 
-        <section id="services">
-            <div class="container">
-                <header class="section-header ml-3">
-                    Services
-                </header>
-    
-                <div class="section-subheader">
-                    What we Offer
-                </div>
-                <div class="section-description">
+        <div class="services">
+
+            <!-- #region Grooming -->
+
+            <section class="bg-highlight">
+                <div class="container">
+                    <h2 id="grooming">Grooming</h2>
+
+                    <h3>Full Groom</h3>
                     <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li>Proin volutpat metus ac velit maximus pharetra.</li>
-                        <li>Vestibulum eu ipsum id velit interdum rhoncus vel a lorem.</li>
-                        <li>Integer sit amet sem sed nulla vestibulum varius.</li>
-                        <li>Donec congue nisl vel lacinia aliquam.</li>
+                        <li>Bath & Dry package</li>
+                        <li class="list-plus">Full top-to-tail clip and style</li>
                     </ul>
+
+                    <h3>Full Groom Deshed</h3>
+                    <ul>
+                        <li>Bath & Dry package</li>
+                        <li class="list-plus">Deshedding Shampoo</li>
+                        <li class="list-plus">A brushout to help eliminate shedding in the home</li>
+                    </ul>
+
+                    <h3>Mini Groom</h3>
+                    <ul>
+                        <li>Bath & Dry package</li>
+                        <li class="list-plus">Paw trim</li>
+                        <li class="list-plus">Sanitary clip</li>
+                        <li class="list-plus">Eyes and eyebrows</li>
+                    </ul>
+
+                    <h3>Bath & Dry Package</h3>
+                    <ul>
+                        <li class="list-plus">Bath and dry</li>
+                        <li class="list-plus">Brush out</li>
+                        <li class="list-plus">Nail trim</li>
+                        <li class="list-plus">Doggy cologne</li>
+                        <li class="list-plus">Ear clean</li>
+                    </ul>
+
+                    <p><small>Price depending on size</small></p>
                 </div>
-            </div>
-        </section>
+            </section>
+
+            <!-- #endregion -->
+
+            <!-- #region Teeth Cleaning -->
+
+            <section class="container">
+                <h2 id="teethcleaning">Teeth Cleaning</h2>
+
+                <h3>Simple Teeth Cleaning - £5</h3>
+                <p>A generic teeth clean can be done using a brush and doggy toothpaste. This is great for dogs who
+                    don't have much buildup of plaque and for owners who want to keep on top of their dog's dental
+                    hygiene.</p>
+                <small>This can be done as a standalone service or an optional extra added onto a groom.</small>
+
+                <h3>Advanced Teeth Clean - From £20</h3>
+                <p>An advanced teeth clean is performed with an ultrasonic toothbrush designed to target underneath the
+                    plaque and help lift it away leaving a nice, clean tooth behind. This method can help reduce
+                    inflammation, redness, fight against bacteria, and reduce smelly breath.</p>
+                <p>This can sometimes take a couple of sessions but is highly recommended for dogs with a buildup on
+                    their teeth.</p>
+                <p>
+                    <small>This can be done as a standalone service or an optional extra added onto a
+                        groom.</small><br />
+                    <small>£30 for 1st session. £20 for each following session</small>
+                </p>
+            </section>
+
+            <!-- #endregion -->
+
+            <!-- #region Spa Treatments & Shampoos -->
+
+            <section class="bg-highlight">
+                <div class="container">
+                    <h2 id="spatreatments">Spa Treatments & Shampoos</h2>
+                    <dl>
+                        <dt>Exfoliating Facial Treatment - £2</dt>
+                        <dd>This is great to remove eye bogies and stubborn dirt, and rehydrating the area.</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Paw Scrub & Fizz - £5</dt>
+                        <dd>This provides a deep clean while helping to eliminate fungus, germs, and bacteria.
+                            Recommended for dogs that chew their paws or do a lot of field and concrete walking.</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Paw & Nose Balm - Available on Request</dt>
+                        <dd>Nourishing for your dogs paws and nose. This is great for dogs that have dry cracked paws
+                            and noses.</dd>
+                        <small>This treatment is FREE upon request.</small>
+                    </dl>
+
+                    <dl>
+                        <dt>Deep Conditioning Treatment</dt>
+                        <dd>Specifically formulated to revive brittle, listless, and lifeless coasts, restoring
+                            vitality, softness and condition to even the most damaged coats. Great for all especially
+                            curly coats and old dogs.</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Oatmeal Shampoo</dt>
+                        <dd>This contains oat proteins to soothe and reduce irritation in the skin as well as natural
+                            coconut extra and almost oil to help moisturise and condition hair. It helps to ease dryness
+                            and inflammation at the same time.</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Dirty Beast Shampoo</dt>
+                        <dd>An aloe vera base perfectly-balanced formula that will effectively clease dirty and thick
+                            fur along with helping deodorise even the smelliest coats.</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Whitening Shampoo</dt>
+                        <dd>Carefully balanced formula that will enhance, revitialise and refresh the natural white and
+                            light pigmentation in your pet's coat. This is great for removing yellow, brown, and grass
+                            staining.</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>Colour-Enhancing Shampoo</dt>
+                        <dd>Great for giving coats a new lease of life by boosting its natural pigmentation.</dd>
+                    </dl>
+                </div>
+            </section>
+
+            <!-- #endregion -->
+
+            <!-- #region Nail Trimming -->
+
+            <section class="container">
+                <h2>Nail Trimming - £6.50</h2>
+                <p>Walk-in nail trims are welcome or can be arranged via appointment.</p>
+                <p><em>All appointments that include a bath will have a nail trim included in the price.</em></p>
+            </section>
+
+            <!-- #endregion -->
+
+            <!-- #region Late Night Appointments -->
+
+            <section class="container">
+                <h2 id="lateappointments">Late Night Appointments</h2>
+                <p>This service is offered as a surcharge for those who cannot attend during our normal opening hours.
+                </p>
+                <p>
+                    <small>Price depending on size</small>
+                </p>
+            </section>
+
+            <!-- #endregion -->
+
+            <!-- #region Training Sessions -->
+            <section class="bg-highlight">
+                <div class="container">
+                    <h2 id="training">Training Sessions - £25</h2>
+                    <p>Some dogs don't like being groomed and that's okay! Not everyone enjoys the salon experience and
+                        it can be scary for some, especially if they have not had puppy training in a salon environment.
+                        We offer training sessions to help show dogs that you don't need to be afraid and it can be an
+                        enjoyable experience.</p>
+                    <p>Training sessions can vary from dog to dog. We recommend bringing high-value treats e.g.
+                        chicken/cheese/etc. to these appointments as this engages the dogs brain more with giving them
+                        their favourite treat. While some dogs only need the odd session, others may need more frequent
+                        sessions.
+                    </p>
+                    <p>
+                        <small>
+                            Standard session pricing is £25.<br />
+                            Multiple session pricing can be discussed during a consultation.
+                        </small>
+                    </p>
+                </div>
+            </section>
+            <!-- #endregion -->
+        </div>
 
         <section id="contact">
             <div class="container">
-                <header class="section-header contact-header">
-                    Contact Us
+                <header class="footer-header">
+                    Get in touch!
                 </header>
                 <footer>
                     <div class="footer-left">
@@ -80,24 +239,40 @@
                     </div>
                     <div class="footer-right">
                         <div class="footer-right-contact">
-                            <a href="mailto:soggydoggygrooming@gmail.com">soggydoggygrooming@gmail.com</a>
+                            <a href="mailto:soggydoggygrooming@gmail.com">
+                                <i class="link-icon fa-solid fa-envelope"></i>
+                                soggydoggygrooming@gmail.com
+                            </a>
                         </div>
-                        <div class="footer-right-address">
+                        <!-- <div class="footer-right-address">
                             <div>123 Road Avenue</div>
                             <div>Torquay</div>
                             <div>TQ1 1AA</div>
-                        </div>
-                        <div class="footer-right-socials">
-                            <a href="https://www.facebook.com/profile.php?id=61570448295284" title="Soggy Doggy Grooming on Facebook">
-                                <i class="fa-brands fa-facebook"></i>
-                            </a>
-                            <a href="https://www.instagram.com/soggy_doggygrooming" title="@soggy_doggygrooming on Instagram">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
+                        </div> -->
+                        <div class="footer-right-socials socials">
+                            <div>
+                                <a 
+                                    href="https://www.facebook.com/profile.php?id=61570448295284"
+                                    class="social-link"
+                                    title="Soggy Doggy Grooming on Facebook"
+                                >
+                                    <i class="fa-brands fa-facebook"></i> Soggy Doggy Grooming
+                                </a>
+                            </div>
+                            <div>
+                                <a
+                                    href="https://www.instagram.com/soggy_doggygrooming"
+                                    class="social-link"
+                                    title="@soggy_doggygrooming on Instagram"
+                                >
+                                    <i class="fa-brands fa-instagram "></i> @soggy_doggygrooming
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </footer>
             </div>
         </section>
     </body>
+
 </html>
