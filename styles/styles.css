@@ -9,9 +9,7 @@
 }
 
 html {
-    /* background-color: var(--theme); */
-    /* background: linear-gradient(var(--theme), var(--theme-highlight)); */
-    background: repeating-linear-gradient(45deg, var(--theme), var(--theme-highlight), var(--theme) 500px);
+    background: linear-gradient(45deg, var(--theme), var(--theme-highlight), var(--theme));
     font-family: 'Sour Gummy', sans-serif;
 }
 
@@ -38,7 +36,6 @@ p {
 }
 
 .navbar {
-    /* background-color: var(--theme); */
     padding: 1em 2em;
 }
 
@@ -58,7 +55,6 @@ nav {
 
 .hero {
     align-items: center;
-    /* background-color: var(--theme-highlight); */
     display: flex;
     font-family: 'Pacifico', cursive;
     font-size: 2rem;
@@ -92,7 +88,7 @@ nav {
 
 .container {
     margin: 0 auto;
-    width: 1200px;
+    width: 750px;
 }
 
 footer {
