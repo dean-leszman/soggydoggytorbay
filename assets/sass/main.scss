@@ -2,13 +2,30 @@
 @import './nav.scss';
 
 :root {
+    --theme-border-radius: 0.2em;
+
     --theme-color-dark: #111111;
     --theme-color-light: #FAFAFA;
     --theme-color-pink: #E1C7E1;
     --theme-color-purple: #C7C7E1;
     --theme-color-blue: royalblue;
 
-    background-color: var(--theme-color-pink);
+    --theme-size-xs: 0.4em;
+    --theme-size-sm: 0.8em;
+    --theme-size-md: 1em;
+    --theme-size-lg: 1.2em;
+    --theme-size-xl: 1.5em;
+
+    --theme-transition-delay: 0.2s;
+    --theme-transition-delay-fast: 0.1s;
+
+    background: #E1C7E1;
+    background: linear-gradient(45deg, var(--theme-color-purple), var(--theme-color-pink), var(--theme-color-purple));
+}
+
+html,
+body {
+    height: 100%;
 }
 
 body {
@@ -24,4 +41,14 @@ a {
 a:hover {
     color: var(--theme-color-blue);
     text-decoration: none;
+}
+
+main,
+footer {
+    padding: var(--theme-size-md);
+}
+
+.logo {
+    height: auto;
+    width: 7.5em;
 }
