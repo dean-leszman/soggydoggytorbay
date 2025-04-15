@@ -1,0 +1,27 @@
+@import './reset.scss';
+@import './nav.scss';
+
+:root {
+    --theme-color-dark: #111111;
+    --theme-color-light: #FAFAFA;
+    --theme-color-pink: #E1C7E1;
+    --theme-color-purple: #C7C7E1;
+    --theme-color-blue: royalblue;
+
+    background-color: var(--theme-color-pink);
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.1s ease;
+}
+
+a:hover {
+    color: var(--theme-color-blue);
+    text-decoration: none;
+}

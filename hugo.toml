@@ -1,0 +1,6 @@
+baseURL = 'https://soggydoggytorbay.com/'
+languageCode = 'en-gb'
+title = 'Soggy Doggy Torbay'
+
+[params]
+name = 'Dean Leszman'
