@@ -1,6 +1,46 @@
 {{ define "main" }}
 <div class="container">
     {{ partial "hero" (dict "hero" "Services")}}
+
+    <nav class="services-nav">
+        <a href="#grooming">Grooming</a>
+        <a href="#teeth-cleaning">Teeth Cleaning</a>
+        <a href="#spa-treatments">Spa Treatments & Shampoo</a>
+        <a href="#nail-trimming">Nail Trimming</a>
+        <a href="#late-night-appointments">Late Night Appointments</a>
+        <a href="#training-sessions">Training Sessions</a>
+        <a href="#puppy-school">Puppy School</a>
+        <a href="#owner-school">Owner School</a>
+    </nav>
+
+    {{ partial "spacer" }}
+
     {{ partial "services/grooming" }}
+
+    {{ partial "services/teeth-cleaning" }}
+
+    {{ partial "spacer" }}
+
+    {{ partial "services/spa-treatments" }}
+
+    {{ partial "spacer" }}
+
+    {{ partial "services/nail-trimming" }}
+
+    {{ partial "spacer" }}
+
+    {{ partial "services/late-night-appointments" }}
+
+    {{ partial "spacer" }}
+
+    {{ partial "services/training-sessions" }}
+
+    {{ partial "spacer" }}
+
+    {{ partial "services/puppy-school" }}
+
+    {{ partial "spacer" }}
+    
+    {{ partial "services/owner-school" }}
 </div>
 {{ end }}

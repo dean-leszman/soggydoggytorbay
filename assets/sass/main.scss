@@ -1,17 +1,18 @@
 @import './reset.scss';
 
 :root {
-    --theme-border-radius: 0.2em;
+    --theme-border-radius: 0.4em;
     --theme-container-width: 750px;
 
     --theme-color-dark: #111111;
     --theme-color-light: #FAFAFA;
     --theme-color-pink: #E1C7E1;
     --theme-color-purple: #C7C7E1;
+    --theme-color-purple-dark: rebeccapurple;
     --theme-color-blue: royalblue;
 
     --theme-font-body-family: 'Sour Gummy', sans-serif;
-    --theme-font-body-size: 16px;
+    --theme-font-body-size: 20px;
 
     --theme-font-h1-family: 'Pacifico', sans-serif;
     --theme-font-h1-size: 4em;
@@ -34,7 +35,6 @@
 
     background: #E1C7E1;
     background: linear-gradient(45deg, var(--theme-color-purple), var(--theme-color-pink), var(--theme-color-purple));
-    font-size: 16px;
 }
 
 // Element Styles
@@ -83,11 +83,19 @@ a:hover {
 
 .container {
     margin: 0 auto;
-    width: var(--theme-container-width);
+    width: calc(min(100vw, 750px));
+}
+
+.spacer {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    border: 0px;
+    height: 1px;
+    margin: var(--theme-size-lg);
 }
 
 // Imports
 @import './nav.scss';
+@import './footer.scss';
 @import './image.scss';
 @import './home.scss';
 @import './services.scss';
