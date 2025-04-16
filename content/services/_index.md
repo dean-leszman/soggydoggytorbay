@@ -1,3 +1,3 @@
 ---
-title: Services - Soggy Doggy Grooming
+title: Services
 ---

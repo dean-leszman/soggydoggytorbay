@@ -1,0 +1,38 @@
+.home-about {
+    align-items: center;
+    display: flex;
+    gap: var(--theme-size-md);
+}
+
+.home-about-left {
+    width: 40%;
+}
+
+.home-about-right {
+    width: 60%;
+}
+
+.home-about-img {
+    border-radius: var(--theme-size-xl);
+    height: auto;
+    // max-width: var(--theme-size-img-xl);
+    // width: var(--theme-size-img-xl);
+    width: 100%;
+}
+
+.home-about-text {
+    display: flex;
+    font-size: var(--theme-size-lg);
+    line-height: var(--theme-size-lg);
+    flex-direction: column;
+    gap: var(--theme-size-sm);
+    text-align: justify;
+}
+
+.home-about-text-header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: var(--theme-size-lg);
+    font-weight: bold;
+}

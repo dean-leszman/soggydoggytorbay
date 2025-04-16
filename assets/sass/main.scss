@@ -1,14 +1,27 @@
 @import './reset.scss';
-@import './nav.scss';
 
 :root {
     --theme-border-radius: 0.2em;
+    --theme-container-width: 750px;
 
     --theme-color-dark: #111111;
     --theme-color-light: #FAFAFA;
     --theme-color-pink: #E1C7E1;
     --theme-color-purple: #C7C7E1;
     --theme-color-blue: royalblue;
+
+    --theme-font-body-family: 'Sour Gummy', sans-serif;
+    --theme-font-body-size: 16px;
+
+    --theme-font-h1-family: 'Pacifico', sans-serif;
+    --theme-font-h1-size: 4em;
+
+    --theme-img-scale: 7.5;
+    --theme-size-img-xs: calc(var(--theme-img-scale) * var(--theme-size-xs));
+    --theme-size-img-sm: calc(var(--theme-img-scale) * var(--theme-size-sm));
+    --theme-size-img-md: calc(var(--theme-img-scale) * var(--theme-size-md));
+    --theme-size-img-lg: calc(var(--theme-img-scale) * var(--theme-size-lg));
+    --theme-size-img-xl: calc(var(--theme-img-scale) * var(--theme-size-xl));
 
     --theme-size-xs: 0.4em;
     --theme-size-sm: 0.8em;
@@ -21,15 +34,30 @@
 
     background: #E1C7E1;
     background: linear-gradient(45deg, var(--theme-color-purple), var(--theme-color-pink), var(--theme-color-purple));
+    font-size: 16px;
 }
+
+// Element Styles
 
 html,
 body {
-    height: 100%;
+    height: 100vh;
+    overflow-y: auto;
 }
 
 body {
-    font-family: sans-serif;
+    font-family: var(--theme-font-body-family);
+    font-size: var(--theme-font-body-size);
+}
+
+main,
+footer {
+    padding: var(--theme-size-md);
+}
+
+h1 {
+    font-family: var(--theme-font-h1-family);
+    font-size: var(--theme-font-h1-size);
 }
 
 a {
@@ -43,12 +71,23 @@ a:hover {
     text-decoration: none;
 }
 
-main,
-footer {
-    padding: var(--theme-size-md);
+// Class Styles
+
+.hero {
+    padding: var(--theme-size-xl) 0px;
 }
 
-.logo {
-    height: auto;
-    width: 7.5em;
+.text-center {
+    text-align: center;
 }
+
+.container {
+    margin: 0 auto;
+    width: var(--theme-container-width);
+}
+
+// Imports
+@import './nav.scss';
+@import './image.scss';
+@import './home.scss';
+@import './services.scss';

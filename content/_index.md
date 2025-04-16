@@ -1,4 +1,6 @@
----
-title: Home
----
-Hello world
++++
+title = 'Home'
+
+[params]
+header = 'Soggy Doggy Grooming'
++++

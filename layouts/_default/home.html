@@ -1,0 +1,9 @@
+{{ define "main" }}
+    <div class="container">
+        {{ partial "hero" (dict "context" . "hero" "Soggy Doggy Grooming") }}
+
+        {{ partial "about" }}
+
+        {{ partial "services" }}
+    </div>
+{{ end }}

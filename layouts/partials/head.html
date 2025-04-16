@@ -1,14 +1,22 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<!-- OpenGraph Metadata -->
 <meta property="og:title" content="Soggy Doggy Grooming" />
 <meta property="og:image" content="/images/og-image.png" />
 
-<title>{{ .Page.Title }}</title>
+<title>{{ .Page.Title }} - Soggy Doggy Torbay</title>
 
+<!-- Site Styles -->
 {{ $style := resources.Get "sass/main.scss" | css.Sass | resources.Minify }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
 
+<!-- FontAwesome -->
 <link rel="stylesheet" href="/fontawesome/css/fontawesome.min.css" />
 <link rel="stylesheet" href="/fontawesome/css/brands.min.css" />
 <link rel="stylesheet" href="/fontawesome/css/solid.min.css" />
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
