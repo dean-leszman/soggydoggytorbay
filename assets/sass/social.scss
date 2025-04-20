@@ -1,0 +1,13 @@
+.social-gallery {
+    display: flex;
+    gap: var(--theme-size-md);
+    justify-content: center;
+
+    > * {
+        flex-grow: 1;
+    }
+}
+
+.fb-page {
+    text-align: center;
+}

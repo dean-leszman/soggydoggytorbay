@@ -12,7 +12,7 @@
     --theme-color-blue: royalblue;
 
     --theme-font-body-family: 'Sour Gummy', sans-serif;
-    --theme-font-body-size: 20px;
+    --theme-font-body-size: 16px;
 
     --theme-font-h1-family: 'Pacifico', sans-serif;
     --theme-font-h1-size: 4em;
@@ -99,3 +99,4 @@ a:hover {
 @import './image.scss';
 @import './home.scss';
 @import './services.scss';
+@import './social.scss';
