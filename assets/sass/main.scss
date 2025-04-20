@@ -93,6 +93,11 @@ a:hover {
     margin: var(--theme-size-lg);
 }
 
+.highlight {
+    font-style: italic;
+    font-weight: bold;
+}
+
 // Imports
 @import './nav.scss';
 @import './footer.scss';

@@ -1,4 +1,5 @@
-.service {
+.service,
+.service-section {
     margin-bottom: var(--theme-size-xl);
 }
 
@@ -73,4 +74,8 @@
 
 .btn-service:active {
     box-shadow: inset 0px 1px 3px rgba(0,0,0,0.2);
+}
+
+.puppy-school p {
+    text-align: justify;
 }

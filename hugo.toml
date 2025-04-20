@@ -4,3 +4,7 @@ title = 'Soggy Doggy Torbay'
 
 [params]
 name = 'Dean Leszman'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
