@@ -55,6 +55,7 @@
     border-radius: var(--theme-border-radius);
     // box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
     padding: var(--theme-size-xs) var(--theme-size-sm);
+    transition-property: background-color, border-color, color;
     transition-duration: var(--theme-transition-delay);
 }
 

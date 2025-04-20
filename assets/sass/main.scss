@@ -15,7 +15,7 @@
     --theme-font-body-size: 16px;
 
     --theme-font-h1-family: 'Pacifico', sans-serif;
-    --theme-font-h1-size: 4em;
+    --theme-font-h1-size: 3rem;
 
     --theme-img-scale: 7.5;
     --theme-size-img-xs: calc(var(--theme-img-scale) * var(--theme-size-xs));
@@ -24,11 +24,11 @@
     --theme-size-img-lg: calc(var(--theme-img-scale) * var(--theme-size-lg));
     --theme-size-img-xl: calc(var(--theme-img-scale) * var(--theme-size-xl));
 
-    --theme-size-xs: 0.4em;
-    --theme-size-sm: 0.8em;
-    --theme-size-md: 1em;
-    --theme-size-lg: 1.2em;
-    --theme-size-xl: 1.5em;
+    --theme-size-xs: 0.4rem;
+    --theme-size-sm: 0.8rem;
+    --theme-size-md: 1rem;
+    --theme-size-lg: 1.2rem;
+    --theme-size-xl: 1.5rem;
 
     --theme-transition-delay: 0.2s;
     --theme-transition-delay-fast: 0.1s;
@@ -87,7 +87,7 @@ a:hover {
 }
 
 .spacer {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, var(--theme-color-pink), var(--theme-color-purple-dark), var(--theme-color-pink));
     border: 0px;
     height: 1px;
     margin: var(--theme-size-lg);
