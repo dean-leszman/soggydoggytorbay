@@ -9,7 +9,7 @@
 <title>{{ .Page.Title }} - Soggy Doggy Torbay</title>
 
 <!-- Site Styles -->
-{{ $style := resources.Get "sass/main.scss" | css.Sass | resources.Minify }}
+{{ $style := resources.Get "sass/main.scss" | css.Sass | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
 
 <!-- FontAwesome -->
