@@ -119,7 +119,10 @@
     overflow: hidden;
     text-align: center;
     width: 100%;
+}
 
+.service-block,
+.service-split {
     p {
         line-height: var(--theme-size-lg);
         margin-bottom: var(--theme-size-sm);
@@ -225,4 +228,5 @@
     align-items: center;
     display: flex;
     gap: var(--theme-size-md);
+    width: 100%;
 }
