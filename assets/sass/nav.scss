@@ -49,6 +49,17 @@
     }
 }
 
+// Hide dropdown menu on smaller devices
+@media screen and (max-width: 1000px) {
+    .dropdown {
+        &:hover {
+            .dropdown-content {
+                display: none;
+            }
+        }
+    }
+}
+
 .dropdown-content {
     background-color: var(--theme-color-light);
     border-radius: var(--theme-border-radius);

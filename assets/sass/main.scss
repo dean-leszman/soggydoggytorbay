@@ -41,8 +41,12 @@
 
 html,
 body {
-    height: 100vh;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
     overflow-y: auto;
+    width: 100%;
 }
 
 body {
