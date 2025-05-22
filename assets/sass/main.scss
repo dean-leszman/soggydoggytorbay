@@ -102,6 +102,24 @@ a:hover {
     font-weight: bold;
 }
 
+.tel {
+    font-family: cursive;
+}
+
+.address {
+    text-align: right;
+}
+
+.address-home {
+    align-items: center;
+    display: flex;
+    gap: var(--theme-size-xs);
+}
+
+.fa-invisible {
+    color: transparent;
+}
+
 // Imports
 @import './nav.scss';
 @import './footer.scss';
